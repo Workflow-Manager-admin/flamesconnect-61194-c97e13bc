@@ -113,7 +113,8 @@ function App() {
         <div className="flames-container">
           <h1 className="flames-title" style={{
             letterSpacing: '2px',
-            marginBottom: '8px'
+            marginBottom: '8px',
+            color: '#000000'
           }}>FLAMES Relationship Calculator</h1>
           <p className="flames-desc" style={{
             color: "var(--text-secondary)",
