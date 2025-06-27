@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/flamesconnect-61194-c97e13bc/flames_calculator_frontend"
+}
