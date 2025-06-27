@@ -182,26 +182,45 @@ function App() {
             </div>
           )}
           {result && (
-            <div className="flames-result" style={{
-              marginTop: 34,
-              background: "var(--bg-secondary)",
-              padding: "32px 18px",
-              borderRadius: 18,
-              boxShadow: "0 3px 16px 2px rgba(0,0,0,0.14)",
-              maxWidth: 420,
-              marginLeft: 'auto',
-              marginRight: 'auto'
-            }}>
-              <div style={{fontSize: 40, fontWeight: 800, letterSpacing: 2}}>
+            <div
+              className="flames-result"
+              style={{
+                marginTop: 38,
+                padding: "34px 18px 26px 18px",
+                borderRadius: 18,
+                maxWidth: 415,
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                background: "transparent",
+                boxShadow: "0 6px 38px 1px #fbb7c87c, 0 3px 15px 1px #ff33662a",
+                border: "none",
+                zIndex: 1,
+              }}>
+              <div style={{
+                fontSize: 46,
+                fontWeight: 800,
+                letterSpacing: 2,
+                color: 'var(--rose-red)',
+                textShadow: '0 4px 18px #fbb7c871, 0 1px 0 #fffafd',
+                marginBottom: 1
+              }}>
                 {result.letter}
               </div>
-              <div style={{fontSize: 26, fontWeight: 600, marginTop: 4}}>
+              <div style={{
+                fontSize: 26,
+                fontWeight: 700,
+                marginTop: 7,
+                color: 'var(--rose-5)',
+                letterSpacing: 1.3,
+                textShadow: '0 2px 11px #fbb7c844'
+              }}>
                 {result.meaning}
               </div>
               <div style={{
-                marginTop: 10,
-                color: "var(--text-secondary)",
-                fontSize: 17
+                marginTop: 15,
+                color: "var(--rose-3)",
+                fontSize: 17.2,
+                fontWeight: 500,
               }}>
                 {result.description}
               </div>
